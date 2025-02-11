@@ -1,0 +1,29 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# AWS Credentials (Sensitive Data)
+.aws/ 
+~/.aws/ 
+
+# Build output
+dist/
+build/
+.DS_Store
+
+# Test output
+coverage/
+jest.cache/
+jest-stare/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+debug.log
+
+# temporary files
+tmp/
+.vscode/
